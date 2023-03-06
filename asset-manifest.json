@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/oibsip_level1_task1/static/css/main.04c9fdd7.css",
+    "main.js": "/oibsip_level1_task1/static/js/main.aa49a122.js",
+    "static/js/787.d8298c4d.chunk.js": "/oibsip_level1_task1/static/js/787.d8298c4d.chunk.js",
+    "static/media/image-header.jpg": "/oibsip_level1_task1/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/oibsip_level1_task1/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/oibsip_level1_task1/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/oibsip_level1_task1/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/oibsip_level1_task1/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/oibsip_level1_task1/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/oibsip_level1_task1/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "index.html": "/oibsip_level1_task1/index.html",
+    "main.04c9fdd7.css.map": "/oibsip_level1_task1/static/css/main.04c9fdd7.css.map",
+    "main.aa49a122.js.map": "/oibsip_level1_task1/static/js/main.aa49a122.js.map",
+    "787.d8298c4d.chunk.js.map": "/oibsip_level1_task1/static/js/787.d8298c4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c9fdd7.css",
+    "static/js/main.aa49a122.js"
+  ]
+}
