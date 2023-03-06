@@ -1,0 +1,30 @@
+.it__box {
+	text-align: center;
+	width: 50%;
+	height: 80vh;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.graphics-design {
+	color: var(--graphic-design-text);
+
+	background-image: url(../../../images/desktop/image-graphic-design.jpg);
+}
+
+.photography {
+	color: var(--photography-text);
+	text-align: center;
+	background-image: url(../../../images/desktop/image-photography.jpg);
+}
+
+.it__content {
+	width: 40%;
+	padding-bottom: 5rem;
+}
+
+.it__title {
+	font-size: var(--h3-font-size);
+}

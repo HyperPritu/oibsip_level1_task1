@@ -1,0 +1,21 @@
+.about {
+	width: 100%;
+}
+
+.about-body {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.text {
+	margin: auto 12rem;
+}
+
+.button-underlined {
+	width: fit-content;
+}
+
+.image-text {
+	display: flex;
+	align-items: center;
+}

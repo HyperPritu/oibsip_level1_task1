@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+	/* =============== Colors =============== */
+	--soft-red: hsl(7, 99%, 70%);
+	--yellow: hsl(51, 100%, 49%);
+	--graphic-design-text: hsl(167, 40%, 24%);
+	--photography-text: hsl(198, 62%, 26%);
+	--footer: hsl(168, 34%, 41%);
+
+	/* #### Neutral #### */
+
+	--black: hsl(0, 0%, 0%);
+	--very-dark-desaturated-blue: hsl(211, 28%, 19%);
+	--very-dark-grayish-blue: hsl(213, 9%, 39%);
+	--dark-grayish-blue: hsl(232, 10%, 55%);
+	--grayish-blue: hsl(210, 4%, 67%);
+	--white: hsl(0, 0%, 100%);
+
+	/* =============== Typography =============== */
+	--font-barlow: 'Barlow', sans-serif;
+	--font-fraunces: 'Fraunces', serif;
+
+	/* #### Size #### */
+	--h1-font-size: 5rem;
+	--h2-font-size: 4rem;
+	--h3-font-size: 2rem;
+	--font-size-normal: 1.125rem;
+	--small-font-size: 0.75rem;
+
+	/* =============== Margin =============== */
+	--m-6: 6rem;
+	--m-4: 4rem;
+	--m-3: 3rem;
+	--m-2: 2rem;
+	--m-1-5: 1.5rem;
+	--m-1-25: 1.25rem;
+	--m-1: 1rem;
+	--m-1: 1rem;
+	--m-75: 0.75rem;
+	--m-5: 0.5rem;
+}
+
+body,
+button,
+input,
+textarea {
+	font-family: var(--font-barlow);
+	font-size: var(--font-size-normal);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+	width: 5px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+	background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: black; /* color of the scroll thumb */
+	border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-fraunces);
+	display: inline-block;
+}
+
+p {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	margin: 0 5rem;
+}
+
+.button {
+	background-color: var(--white);
+	color: var(--black);
+	padding: var(--m-75) var(--m-1-5);
+	border-radius: var(--m-2);
+	display: inline-flex;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: var(--font-fraunces);
+}
+
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	color: var(--white);
+}
+
+.button-underlined {
+	display: inline-flex;
+	border: 0;
+	cursor: pointer;
+	background: none;
+	text-transform: uppercase;
+	font-family: var(--font-fraunces);
+	position: relative;
+}
+
+.button-underlined-yellow::before {
+	content: ' ';
+	width: 100%;
+	border-radius: var(--m-2);
+	height: 40%;
+	bottom: 0;
+	background: var(--yellow);
+	position: absolute;
+	z-index: -1;
+	left: 0;
+}
+.button-underlined-red::before {
+	content: ' ';
+	width: 100%;
+	border-radius: var(--m-2);
+	height: 40%;
+	bottom: 0;
+	background: var(--soft-red);
+	position: absolute;
+	z-index: -1;
+	left: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+/* =============== Breakpoints =============== */
+
+@media only screen and (min-width: 1440px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 500px) {
+}
+@media only screen and (min-width: 375px) {
+}

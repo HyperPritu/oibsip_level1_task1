@@ -1,0 +1,16 @@
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.list{
+    gap: var(--m-2);
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.list-items>a{
+    color: var(--white);
+}
